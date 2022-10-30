@@ -2,7 +2,11 @@
 
 ### Made with next.js.
 
-**Simple ststic next js app displaying fetching local markdown files**
+**Simple static next js app illustrating on how to use local markdown files**
+
+#### Packages
+
+- `npm i marked gray-matter `
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
