@@ -2,16 +2,19 @@ import React from 'react'
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
-import {marked} from 'marked'
+import { marked } from 'marked'
 import Link from 'next/link'
+import { Divider } from '@chakra-ui/react'
 
 const PostPage = ({ data: { title, date, cover_image }, content, info }) => {
     return (
         <>
-            <Link href='/' className='btn btn-back'> Go Back</Link>
+            <Link href='/' className='button-53'> Go Back</Link>
             <div className='card card-page'><h1 className='post-title'>{title}</h1> </div>
+            <Divider paddingBottom="20px" />
             <div className='post-date'> Posted on {date}</div>
             <img src={cover_image} alt={title}></img>
+          
             <div className='post-body'>
                 <div dangerouslySetInnerHTML={{ __html: marked(info) }}></div>
             </div>

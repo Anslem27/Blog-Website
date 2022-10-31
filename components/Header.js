@@ -1,4 +1,4 @@
-import react from "react";
+
 import Link from "next/link";
 
 const Header = ({ }) => {
@@ -6,8 +6,8 @@ const Header = ({ }) => {
 
         <header >
             <div className="container">
-                <Link href="/">
-                    <h2> Dev Blog</h2>
+                <Link href="/" >
+                    <h2 className="big-txt"> Dev Blog</h2>
                 </Link>
             </div>
         </header>
