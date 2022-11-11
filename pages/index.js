@@ -48,6 +48,7 @@ export const getStaticProps = async () => {
 
   return {
     props: {
+      //posts
       posts: posts.sort(sortByDate)
     }
   }

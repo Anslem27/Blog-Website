@@ -2,6 +2,8 @@
 
 ### Made with next.js.
 
+Check live app [here](https://blog-website-anslem27.vercel.app/)
+
 **Simple static next js app illustrating on how to use local markdown files**
 
 #### Packages
